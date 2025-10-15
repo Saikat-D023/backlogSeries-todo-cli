@@ -3,7 +3,7 @@ import bodyparser from "body-parser";
 import TodoDB from "./db.js";
 
 import mongoose from "mongoose";
-mongoose.connect("mongodb+srv://saikatdey358:FgTvY9F13LyTkGRs@cluster0.scmls.mongodb.net/todo-express-app")
+mongoose.connect("mongoURL")
 
 const app = express();
 
